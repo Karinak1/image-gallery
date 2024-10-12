@@ -5,32 +5,32 @@ const images = [
     src: '1.jpg',
     alt: 'vineyard',
     title: 'vineyard',
-    tabindex: '0',
+    tabindex: '1',
   },
 
   {
     src: 'Argentina.jpg',
     alt: 'vineyard',
     title: 'vineyard',
-    tabindex: '1',
+    tabindex: '2',
   },
   {
     src: 'v3.jpg',
     alt: 'vineyard',
     title: 'vineyard',
-    tabindex: '2',
+    tabindex: '3',
   },
   {
     src: 'vineyard-2.jpg',
     alt: 'vineyard',
     title: 'vineyard',
-    tabindex: '3',
+    tabindex: '4',
   },
   {
     src: '751027.jpg',
     alt: 'vineyard',
     title: 'vineyard',
-    tabindex: '4',
+    tabindex: '5',
   },
 ];
 
