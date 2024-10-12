@@ -4,15 +4,18 @@ const images = [
   {
     src: '1.jpg',
     alt: 'vineyard',
+    title: 'vineyard',
   },
 
   {
     src: 'Argentina.jpg',
     alt: 'vineyard',
+    title: 'vineyard',
   },
   {
     src: 'v3.jpg',
     alt: 'vineyard',
+    title: 'vineyard',
   },
 ];
 

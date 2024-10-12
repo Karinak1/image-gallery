@@ -12,21 +12,21 @@
   z-index: 100;
   right: 20%;
 }
-#container:focus {
+:focus {
   outline: 3px solid rgb(237, 193, 193);
 }
-#container:hover {
+#container img:hover {
   color: rgb(240, 232, 232);
 }
 #container img {
   height: 100px;
   width: auto;
   cursor: pointer;
-  border: 5px solid black;
+  border: 3px solid black;
   display: grid;
-
   margin: 20px;
   grid-template-columns: 1fr 1fr 1fr 2fr;
+  display: flex;
 }
 img {
   height: 100vh;
@@ -38,15 +38,8 @@ img {
   display: flex;
   position: absolute;
 }
-@media only screen and (min-width: 321px) and (max-width: 768px) {
-  #container {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1600px) {
-  #container {
+@media (min-width: 400px-) and (max-width: 1200px) {
+  .container {
     flex-direction: row;
     flex-wrap: wrap;
   }
