@@ -32,3 +32,7 @@ for (let i = 0; i < images.length; i++) {
 
   Container.appendChild(img);
 }
+
+Container.addEventListener('click', function () {
+  console.log('image was clicked');
+});
