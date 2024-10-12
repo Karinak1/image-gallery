@@ -23,23 +23,28 @@
   width: auto;
   cursor: pointer;
   border: 3px solid black;
-  display: grid;
+  /* display: grid;
   margin: 20px;
-  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr 2fr; */
   display: flex;
+  justify-content: space-between;
+  margin: 20;
 }
-img {
+/* img {
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
-}
+} */
 #display-image {
   display: flex;
-  position: absolute;
+  background-image: url(./wine.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
 }
 @media (min-width: 400px-) and (max-width: 1200px) {
-  .container {
+  .container img {
     flex-direction: row;
     flex-wrap: wrap;
   }
